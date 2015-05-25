@@ -30,6 +30,8 @@ $ browserify source.js --no-bundle-external | {{package.name}} > dist.js
 
 - **v1.0.0** (2015-05-25)
   - First public release
+- **v1.0.1** (2015-05-25)
+  - Fixed broken badges in README
 
 ## License
 

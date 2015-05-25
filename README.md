@@ -4,9 +4,9 @@ Post-processor for Browserify bundles built with ```--no-bundle-external```
 
 [![npm version](https://img.shields.io/npm/v/nbextify.svg?style=flat-square)](https://www.npmjs.com/package/nbextify) 
  [![npm monthly downloads](https://img.shields.io/npm/dm/nbextify.svg?style=flat-square)](https://www.npmjs.com/package/nbextify)
- [![npm dependencies](https://img.shields.io/david/.svg?style=flat-square)](https://david-dm.org/)
- [![GitHub stars](https://img.shields.io/github/stars/.svg?style=flat-square)](https://github.com//stargazers)
- [![GitHub forks](https://img.shields.io/github/forks/.svg?style=flat-square)](https://github.com//network)
+ [![npm dependencies](https://img.shields.io/david/adamrenklint/nbextify.svg?style=flat-square)](https://david-dm.org/adamrenklint/nbextify)
+ [![GitHub stars](https://img.shields.io/github/stars/adamrenklint/nbextify.svg?style=flat-square)](https://github.com/adamrenklint/nbextify/stargazers)
+ [![GitHub forks](https://img.shields.io/github/forks/adamrenklint/nbextify.svg?style=flat-square)](https://github.com/adamrenklint/nbextify/network)
 
 
 ## Summary

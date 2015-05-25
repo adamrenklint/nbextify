@@ -1,6 +1,6 @@
 # nbextify
 
-Post-processor for Browserify bundles built with ```--no-bundle-external```
+Post-processor plugin for Browserify bundles built with ```--no-bundle-external```
 
 [![npm version](https://img.shields.io/npm/v/nbextify.svg?style=flat-square)](https://www.npmjs.com/package/nbextify) 
  [![npm monthly downloads](https://img.shields.io/npm/dm/nbextify.svg?style=flat-square)](https://www.npmjs.com/package/nbextify)
@@ -13,9 +13,7 @@ Post-processor for Browserify bundles built with ```--no-bundle-external```
 
 When running Browserify with ```--no-bundle-external```, the output still contains both internal and external require calls, making it impossible to run the bundle through Browserify again.
 
-This post-processor module will mangle all internal require calls, leaving all external ones, making the bundle ready to be required and browserified as any other module.
-
-Note that this is **not a Browserify transform** - it is a simple post-processor that accepts input via STDIN and prints the result to STDOUT.
+This post-processor plugin will mangle all internal require calls, leaving all external ones, making the bundle ready to be required and browserified as any other module.
 
 ## Installation
 
@@ -25,10 +23,10 @@ $ npm install --save-dev nbextify
 
 ## Usage
 
-Pipe the output from Browserify into nbextify and out to a destination file.
+Add nbextify as a plugin in your Browserify command.
 
 ```sh
-$ browserify source.js --no-bundle-external | nbextify > dist.js
+$ browserify source.js --no-bundle-external -p nbextify -o dist.js
 ```
 
 ## Changelog
@@ -37,6 +35,8 @@ $ browserify source.js --no-bundle-external | nbextify > dist.js
   - First public release
 - **v1.0.1** (2015-05-25)
   - Fixed broken badges in README
+- **v2.0.0** (2015-05-25)
+  - Rewritten as a proper Browserify plugin
 
 ## License
 

@@ -9,8 +9,6 @@ Post-processor for Browserify bundles built with ```--no-bundle-external```
  [![GitHub forks](https://img.shields.io/github/forks/.svg?style=flat-square)](https://github.com//network)
 
 
-
-
 ## Summary
 
 When running Browserify with ```--no-bundle-external```, the output still contains both internal and external require calls, making it impossible to run the bundle through Browserify again.
@@ -32,6 +30,11 @@ Pipe the output from Browserify into nbextify and out to a destination file.
 ```sh
 $ browserify source.js --no-bundle-external | nbextify > dist.js
 ```
+
+## Changelog
+
+- **v0.1.0** (2015-05-25)
+  - First public release
 
 ## License
 

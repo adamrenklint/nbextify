@@ -1,7 +1,7 @@
 {
   "name": "nbextify",
   "description": "Post-processor for Browserify bundles built with --no-bundle-external",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "bin": "nbextify",
   "license": "MIT",
   "author": "Adam Renklint <adam@renklint.com> (http://adamrenklint.com)",

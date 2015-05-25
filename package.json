@@ -6,7 +6,7 @@
   "license": "MIT",
   "author": "Adam Renklint <adam@renklint.com> (http://adamrenklint.com)",
   "scripts": {
-    "foo": "redok && git add README.md && git commit -m 'Update README' && git push origin master",
+    "docs": "redok && git add README.md && git commit -m 'Update README' && git push origin master",
     "postpublish": "git tag 'v'$npm_package_version && git push --tags"
   },
   "devDependencies": {

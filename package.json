@@ -1,8 +1,8 @@
 {
   "name": "nbextify",
-  "description": "Post-processor for Browserify bundles built with --no-bundle-external",
-  "version": "1.0.1",
-  "bin": "nbextify",
+  "description": "Post-processor plugin for Browserify bundles built with --no-bundle-external",
+  "version": "2.0.0",
+  "main": "index.js",
   "license": "MIT",
   "author": "Adam Renklint <adam@renklint.com> (http://adamrenklint.com)",
   "scripts": {
@@ -12,13 +12,21 @@
   "devDependencies": {
     "redok": "^0.1.0"
   },
+  "keywords": [
+    "browserify-plugin",
+    "browserify",
+    "no-bundle",
+    "bundle"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/adamrenklint/nbextify.git"
   },
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/adamrenklint/nbextify/issues"
   },
-  "homepage": "https://github.com/adamrenklint/nbextify"
+  "homepage": "https://github.com/adamrenklint/nbextify",
+  "dependencies": {
+    "through2": "^0.6.5"
+  }
 }

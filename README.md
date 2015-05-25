@@ -33,7 +33,7 @@ $ browserify source.js --no-bundle-external | nbextify > dist.js
 
 ## Changelog
 
-- **v0.1.0** (2015-05-25)
+- **v1.0.0** (2015-05-25)
   - First public release
 
 ## License
